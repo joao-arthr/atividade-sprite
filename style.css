@@ -1,0 +1,13 @@
+#div-sprite {
+    width: 479px;
+    height: 479px;
+    background: url(img/sprite_ods3.png) 0px 0px;
+    animation: gif 2s steps(20) infinite;
+    overflow: hidden;
+}
+
+@keyframes gif {
+    100% {
+        background-position-x: -9560px;
+    }
+}
